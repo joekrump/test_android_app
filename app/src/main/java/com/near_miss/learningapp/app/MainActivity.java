@@ -9,7 +9,7 @@ import android.widget.TextView;
 
 
 public class MainActivity extends ActionBarActivity {
-    Galaxy milkyWay = new Galaxy("Milky Way", 511, 97);
+    static Galaxy milkyWay = new Galaxy("Milky Way", 511, 97);
     TextView nameData, solarData, habitData,colonyData, popData, fleetData, shipsData;
 
     @Override

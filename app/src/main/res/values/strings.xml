@@ -19,4 +19,10 @@
     <string name="pop_data">0</string>
     <string name="fleet_data">0</string>
     <string name="ships_data">0</string>
+    <string name="title_activity_edit_galaxy">EditGalaxy</string>
+    <string name="ok_button">OK</string>
+    <string name="hint_colony">Enter Number of Colonies</string>
+    <string name="hint_pop">Enter Galaxy Population</string>
+    <string name="hint_fleet">Enter Number of Fleets</string>
+    <string name="hint_ships">Enter Number of Starships</string>
 </resources>

@@ -1,5 +1,6 @@
 package com.near_miss.learningapp.app;
 
+import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -9,13 +10,7 @@ import android.widget.TextView;
 
 public class MainActivity extends ActionBarActivity {
     Galaxy milkyWay = new Galaxy("Milky Way", 511, 97);
-    TextView nameData;
-    TextView solarData;
-    TextView habitData;
-    TextView colonyData;
-    TextView popData;
-    TextView fleetData;
-    TextView shipsData;
+    TextView nameData, solarData, habitData,colonyData, popData, fleetData, shipsData;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -70,9 +65,15 @@ public class MainActivity extends ActionBarActivity {
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
-        if (id == R.id.action_settings) {
-            return true;
+
+        switch(id)
+        {
+            case R.id.edit_galaxy:
+                Intent editIntent = new Intent(this, EditGalaxy.class);
+                this.startActivity(editIntent);
+                return true;
         }
+
         return super.onOptionsItemSelected(item);
     }
 

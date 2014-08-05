@@ -16,6 +16,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.near_miss.learningapp.app.EditGalaxy"
+            android:label="@string/title_activity_edit_galaxy" >
+        </activity>
     </application>
 
 </manifest>

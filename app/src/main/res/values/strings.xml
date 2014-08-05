@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
     <string name="app_name">LearningApp</string>
     <string name="hello_world">Galaxy Information Screen</string>
     <string name="edit_galaxy">Edit Galaxy Info</string>

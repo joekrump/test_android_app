@@ -15,14 +15,14 @@
         android:layout_height="wrap_content" />
     <EditText android:id="@+id/edit_colony"
         android:layout_margin="8dip"
-        android:layout_height="32dp"
+        android:layout_height="wrap_content"
         android:layout_width="wrap_content"
         android:layout_below="@id/edit_title"
-        android:hint=""/>
+        android:hint="@string/hint_colony"/>
     <Button android:id="@+id/submit_colony"
-        android:layout_marginTop="8dip"
-        android:layout_height="32dp"
+        android:layout_height="wrap_content"
         android:layout_width="wrap_content"
         android:layout_below="@id/edit_title"
-        android:layout_toRightOf="@id/edit_colony">Submit</Button>
+        android:layout_toRightOf="@id/edit_colony"
+        android:text="@string/ok_button"/>
 </RelativeLayout>
